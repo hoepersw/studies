@@ -3,6 +3,8 @@ int main (){
 
     float altura1, altura2, altura3, media_da_altura;
 
+    printf("Código da Deborah");
+
     printf("Informe a primeira altura");
     scanf("%f", &altura1);
     printf("Informe a segunda altura");
