@@ -1,17 +1,24 @@
 #include <stdio.h>
-int main (){
 
-    float altura1, altura2, altura3, media_da_altura;
+int main(void) {
+  int valorA, valorB, valorC, valorD, resultado;
+  
+  printf("Insira um valor inteiro para A:\n");
+  scanf("%d", &valorA);
+  printf("Insira um valor inteiro para B:\n");
+  scanf("%d", &valorB);
+  printf("Insira um valor inteiro para C:\n");
+  scanf("%d", &valorC);
+  printf("Insira um valor inteiro para D:\n");
+  scanf("%d", &valorD);
 
-    printf("Código da Deborah");
+  resultado = (valorA + valorB + valorC) * valorD;
+    printf("O resultado da expressão (A + B + C) x D é: %i\n", resultado);
+      
+   printf("FIM");
 
-    printf("Informe a primeira altura");
-    scanf("%f", &altura1);
-    printf("Informe a segunda altura");
-    scanf("%f", &altura2);
-    printf("informe a terceira altura");
-    scanf("%f", &altura3);
+  return 0;
 
-    media_da_altura = (altura1 + altura2 + altura3)/3;
-    printf("A média da altura das três pessoas é: %.2f metros", media_da_altura);
 }
+
+   
