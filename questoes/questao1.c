@@ -13,7 +13,7 @@ int main(void) {
   scanf("%d", &valorD);
 
   resultado = (valorA + valorB + valorC) * valorD;
-    printf("O resultado da expressão (A + B + C) x D é: %i\n", resultado);
+    printf("O resultado da expressão (A + B + C) x D é: %d\n", resultado);
       
    printf("FIM");
 

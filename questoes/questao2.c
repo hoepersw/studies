@@ -15,7 +15,7 @@ int main (void){
     scanf("%f", &nota4);
 
     resultado = (nota1 + nota2 + nota3 + nota4)/4;
-        printf("A média de suas notas é: %2.f", resultado);
+        printf("A média de suas notas é: %2.f\n", resultado);
 
     printf("FIM");
 
