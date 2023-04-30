@@ -9,7 +9,7 @@ int main(){
     scanf("%f", &real);
 
     dolar = real/3.50;
-        printf("A quantidade convertida para dólar é de: U$ %f", dolar);
+    printf("A quantidade convertida para dólar é de: U$ %f", dolar);
 
     return 0;
 
