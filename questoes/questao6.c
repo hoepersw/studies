@@ -3,13 +3,13 @@
 int main(void) {
   float nota1, nota2, nota3, mediaExercicio, mediaAproveitamento;
   
-  printf("Insira nota 1\n");
+  printf("Insira nota 1:\n");
   scanf("%f", &nota1);
-  printf("Insira nota 2\n");
+  printf("Insira nota 2:\n");
   scanf("%f", &nota2);
-  printf("Insira nota 3\n");
+  printf("Insira nota 3:\n");
   scanf("%f", &nota3);
-  printf("Insira a média dos exercícios\n");
+  printf("Insira a média dos exercícios:\n");
   scanf("%f", &mediaExercicio);
 
   mediaAproveitamento = (nota1 + nota2*2 + nota3*3 + mediaExercicio)/7*10;
