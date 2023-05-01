@@ -65,3 +65,10 @@ um triângulo".
 2. um triângulo eqüilátero tem três lados iguais;
 3. um triângulo isósceles tem dois lados iguais e um diferente;
 4. um triângulo escaleno tem três lados diferentes.
+
+12- Elabore um programa para exibir um menu onde o usuário possa escolher uma das seguintes
+funções para efetuar um cálculo de área:
+1. Área de um triângulo.
+2. Área de um retângulo.
+3. Área de um quadrado.
+4. Área de um círculo. 
