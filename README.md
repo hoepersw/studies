@@ -1,4 +1,5 @@
 **File destinado para guardar os enunciados das atividades realizadas.**
+--- 
 
 1- Faça um programa que peça para o usuário digitar 4 valores inteiros, coloque estes valores nas variáveis **a, b, c, d** e imprima na tela o resultado da seguinte expressão: 
 > (a + b + c) x d.
@@ -55,3 +56,12 @@ Faça um programa que recebe o tempo em minutos e diz quanto o usuário precisa 
 3. Em duas vezes, preço normal de etiqueta sem juros.
 4. Em quatro vezes, preço normal de etiqueta mais juros de 10%
 
+11- Faça um algoritmo que leia 3 valores x, y, z, e verifique se podem ser os comprimentos dos
+lados de um triângulo. Em caso afirmativo, verifique se é "triângulo equilátero", "triângulo isósceles"
+ou "triângulo escaleno". Em caso negativo, escreva uma mensagem: "os valores lidos não formam
+um triângulo". 
+> Considere que:
+1.  o comprimento de cada lado de um triângulo é menor que a soma dos comprimentos dos outros lados;
+2. um triângulo eqüilátero tem três lados iguais;
+3. um triângulo isósceles tem dois lados iguais e um diferente;
+4. um triângulo escaleno tem três lados diferentes.
