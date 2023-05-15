@@ -72,3 +72,22 @@ funções para efetuar um cálculo de área:
 2. Área de um retângulo.
 3. Área de um quadrado.
 4. Área de um círculo. 
+
+13- Faça um algoritmo que leia os lados de um triângulo e calcule a área de acordo com a fórmula:
+ > área = √ P (P - a) (P - b) (P - c) 
+ * onde P = a + b + c/2
+
+14- Faça um algoritmo que calcule e escreva a soma dos números pares e a soma dos números ímpares
+entre 1 e 100.
+
+15- Faça um algoritmo que leia a altura de 20 pessoas e calcule a média aritmética das alturas.
+
+16- Faça um algoritmo que leia n valores inteiros e escreva quantos desses valores são negativos.
+
+17- Faça um algoritmo que escreva os n primeiros termos da seguinte sequência de números:
+> 8, 10, 16, 18, 32, 34, 64 ....
+
+18- Uma loja de departamentos oferece para seus clientes um determinado desconto de acordo com o valor
+da compra efetuada. O desconto é de 20% caso o valor da compra seja maior que R$ 500,00 e de 15%
+caso seja menor ou igual. Faça um algoritmo que leia, para cada cliente, nome, endereço e valor da compra
+e escreva o total a pagar. Um nome de cliente igual a ÚLTIMO indica o fim da entrada de dados. 
