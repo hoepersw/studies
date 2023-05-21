@@ -89,5 +89,39 @@ entre 1 e 100.
 
 18- Uma loja de departamentos oferece para seus clientes um determinado desconto de acordo com o valor
 da compra efetuada. O desconto é de 20% caso o valor da compra seja maior que R$ 500,00 e de 15%
-caso seja menor ou igual. Faça um algoritmo que leia, para cada cliente, nome, endereço e valor da compra
-e escreva o total a pagar. Um nome de cliente igual a ÚLTIMO indica o fim da entrada de dados. 
+caso seja menor ou igual. Faça um algoritmo que leia, para cada cliente, o valor da compra e, calcule
+e escreva o total a pagar. Quando o usuário digitar ‘S’, significa que ele quer SAIR do programa.
+
+19- Faça um algoritmo que leia valores, sendo que cada valor representa a idade de uma pessoa. Calcule e
+escreva a idade média do grupo de pessoas. Só devem ser computados no cálculo valores maiores do que
+zero. O algoritmo deve apresentar ao usuário a seguinte mensagem: “deseja digitar mais um valor: s (SIM) /
+n (NÃO)?” antes de prosseguir com a entrada de dados. 
+
+20- Faça um algoritmo que apresente as seguintes opções ao usuário:
+> T: calcular a área de um triângulo;
+
+> Q: calcular a área de um quadrado;
+
+> R: calcular a área de um retângulo;
+
+> Z: finalizar a execução;
+
+De acordo com a opção lida, execute o cálculo correspondente.
+
+21- Um hotel cobra R$ 50,00 de diária por hóspede e mais uma taxa de serviços. A taxa de serviços é de:
+```
+R$ 7,50 por diária, caso o número de diárias seja menor que 15;
+R$ 6,50 por diária, caso o número de diárias seja igual a 15;
+R$ 5,00 por diária, caso o número de diárias seja maior que 15.
+``` 
+Faça um algoritmo que apresente as seguintes opções ao recepcionista:
+1. encerrar a conta de um hóspede
+2. verificar número de contas encerradas
+3. finalizar a execução
+Caso a opção escolhida seja a primeira, leia o nome e o número de diárias do hóspede e escreva o
+nome e total a ser pago. 
+
+Caso a opção escolhida seja a segunda, informe o número de hóspedes
+que deixaram o hotel (número de contas encerradas).
+
+22- Um determinado material radioativo perde metade de sua massa a cada 50 segundos. Dada a sua massa inicial em Kg, faça um algoritmo que determine o tempo necessário para que essa massa se torne menor que 0,5 gramas. Escreva a massa inicial, a massa final e o tempo.

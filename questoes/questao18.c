@@ -1,39 +1,25 @@
 #include <stdio.h>
-#include <string.h>
+#include <strings.h>
 
-int main() {
+int main(){
 
-  char cliente[75], endereco[75];
-  float desconto, valorDaCompra, valorTotal;
+  float desconto, compra, valorTotal;
+  char saidaDoPrograma = 'S';
 
-  while (1) {
-    printf("Insira o nome completo: ");
-    scanf("%s", cliente);
+  while (saidaDoPrograma == 'S' ){
+    printf("Insira o valor da compra efetuada: ");
+    scanf("%f", &compra);
 
-    if (strcmp(cliente, "ÚLTIMO") == 0) {
-      break;
-    }
-
-    printf("\n");
-    printf("Insira um endereço: ");
-    scanf("%s", endereco);
-    printf("\n");
-    printf("Insira o valor da compra: ");
-    scanf("%f", &valorDaCompra);
-
-    if (valorDaCompra > 500) {
-      desconto = valorDaCompra * 0.2;
+    if(compra > 500){
+      desconto = compra * 0.20;
+      valorTotal = compra - desconto;
     } else {
-      desconto = valorDaCompra * 0.15;
+      desconto = compra * 0.15;
+      valorTotal = compra - desconto;
     }
-    valorTotal = valorDaCompra - desconto;
-
-    printf("Cliente: %s\n", cliente);
-    printf("Endereço: %s\n", endereco);
-    printf("Valor da compra: %.2f\n", valorDaCompra);
-    printf("Valor total da compra (com os descontos): %.2f\n", valorTotal);
+    printf("O valor total a ser pago é de: %.2f\n", valorTotal);
+    printf("Deseja continuar no programa? Insira (S) para \"SIM\" ou (N) para \"NÃO\":");
+    scanf(" %c", &saidaDoPrograma);
   }
-  printf("FIM");
 
-  return 0;
 }
